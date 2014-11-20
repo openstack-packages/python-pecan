@@ -2,8 +2,8 @@
 %global pypi_name pecan
 
 Name:           python-%{pypi_name}
-Version:        0.4.5
-Release:        4%{?dist}
+Version:        XXX
+Release:        XXX{?dist}
 Summary:        A lean WSGI object-dispatching web framework
 
 License:        BSD
@@ -31,7 +31,7 @@ fast with few dependencies
 
 
 %prep
-%setup -q -n %{pypi_name}-%{version}
+%setup -q -n %{pypi_name}-%{upstream_version}
 
 
 %build
